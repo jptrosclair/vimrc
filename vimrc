@@ -24,6 +24,8 @@ if has("gui_running")
 
 	if has("gui_macvim")
 		set guifont=Consolas:h12
+	elseif has("gui_gtk2")
+		set guifont=Ubuntu\ Mono\ 10
 	endif
 	
 	"color hybrid-light
