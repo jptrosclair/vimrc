@@ -21,7 +21,11 @@ if has("gui_running")
 	set guioptions-=r
 	set guioptions-=l
 	set guioptions-=T
-	set guifont=Consolas:h12
+
+	if has("gui_macvim")
+		set guifont=Consolas:h12
+	endif
+	
 	"color hybrid-light
 	color hybrid
 endif
