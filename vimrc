@@ -10,6 +10,7 @@ set showmatch
 set showcmd
 set showfulltag
 set wildmenu
+set t_Co=256
 colorscheme hybrid
 syntax on
 
